@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10 vh;
+  background:#274877;
+  color: black;
+
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+
+h2 {
+  position: relative;
+  padding: 15px 30px;
+  color:  #3c7a99,
+  ;
+  text-transform:none;
+  letter-spacing: 10px;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  text-shadow:
+  0 0 5px #039BE5,
+  0 0 10px #1a87be,
+  0 0 21px #326883,
+  0 0 60px #354147,
+  0 0 82px #354147,
+  0 0 92px #326883,
+  0 0 102px #1a87be,
+  0 0 151px #039BE5;
+
+}
+
+h4{
+  font-family: 'Roboto Mono', monospace;
+  color: #1a87be;
+  ;
+}
+
+h1{
+  color: black;
+}
+
+
+
+
+.logo{
+  transition-duration:900ms;
+  transition-property:all;
+  
+}
+
+.logo:hover{
+color:#9ccbe2;
+
+
+}
+
+h3{
+color:#18a7ee;
+
+}
+
+
+body{
+  background-color: white;
+  color:black;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+
+
+button:hover{
+ background-color:#0288D1;
+}
+
+.btn-primary{
+  color:white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.border{
+  border-style: none;
+  border-color: black;
+  background-color: #01579B;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.container{
+  background-color: white;
+}
+
+.box{
+  display:inline-table;
+  background-color: white;
+  border-color: #01579B;
+  border-radius: 0%;
+  padding-top: 5%;
+  margin-bottom: 2%;
+  
+}
+
+.box2{
+  display:flex;
+  flex-direction:column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content:end;
+  background-color:white;
+}
+
+.div{
+  background-color: white;
+
+  padding: 2%;
+  margin:4%;
+  
+}
+

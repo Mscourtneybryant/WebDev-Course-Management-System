@@ -1,0 +1,85 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_form > h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.login_form > input {
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #01579B;
+    font-size: 15px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 2px;
+}
+
+.submit_btn{
+    padding: 17px 30px;
+    margin-top: 10px;
+    background: #039BE5;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 3px;
+}
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.logout_button{
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 3px;
+}
+
+.user_name{
+    color: #01579B;
+}
+
+.form_background{
+    background:  #282e33;
+    padding: 10px 10px;
+    
+}
+
+body{
+    background-image: url('https://www.verywellmind.com/thmb/F3tbohzULa18b31_HrFFmpsPQ1c=/3437x2578/smart/filters:no_upscale()/GettyImages-186366114-56a383fa3df78cf7727dcf23.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;   
+
+
+}
+
